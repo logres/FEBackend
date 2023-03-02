@@ -1,0 +1,66 @@
+Date : 2023-03-02 21:19:09
+Directory : c:\Users\logre\Desktop\FEBackend
+Total : 30 files,  394 codes, 101 comments, 142 blanks, all 637 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Python           |         29 |        343 |        101 |        141 |        585 |
+| pip requirements |          1 |         51 |          0 |          1 |         52 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                    |         30 |        394 |        101 |        142 |        637 |
+| . (Files)                                                            |          4 |         71 |          3 |          8 |         82 |
+| UserAuth                                                             |          8 |         73 |         11 |         27 |        111 |
+| UserAuth (Files)                                                     |          6 |         56 |         10 |         19 |         85 |
+| UserAuth\migrations                                                  |          2 |         17 |          1 |          8 |         26 |
+| rNFT                                                                 |          7 |         36 |          7 |         16 |         59 |
+| rNFT (Files)                                                         |          6 |         36 |          7 |         15 |         58 |
+| rNFTBackEnd                                                          |          5 |         86 |         58 |         47 |        191 |
+| rNFT\migrations                                                      |          1 |          0 |          0 |          1 |          1 |
+| utils                                                                |          6 |        128 |         22 |         44 |        194 |
+| utils (Files)                                                        |          4 |        110 |         22 |         40 |        172 |
+| utils\tests                                                          |          2 |         18 |          0 |          4 |         22 |
++----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                             | language         | code       | comment    | blank      | total      |
++----------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\logre\Desktop\FEBackend\UserAuth\__init__.py                | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\logre\Desktop\FEBackend\UserAuth\admin.py                   | Python           |          1 |          1 |          2 |          4 |
+| c:\Users\logre\Desktop\FEBackend\UserAuth\apps.py                    | Python           |          4 |          0 |          3 |          7 |
+| c:\Users\logre\Desktop\FEBackend\UserAuth\migrations\0001_initial.py | Python           |         17 |          1 |          7 |         25 |
+| c:\Users\logre\Desktop\FEBackend\UserAuth\migrations\__init__.py     | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\logre\Desktop\FEBackend\UserAuth\models.py                  | Python           |          6 |          2 |          2 |         10 |
+| c:\Users\logre\Desktop\FEBackend\UserAuth\tests.py                   | Python           |          1 |          1 |          2 |          4 |
+| c:\Users\logre\Desktop\FEBackend\UserAuth\views.py                   | Python           |         44 |          6 |          9 |         59 |
+| c:\Users\logre\Desktop\FEBackend\conftest.py                         | Python           |          5 |          0 |          1 |          6 |
+| c:\Users\logre\Desktop\FEBackend\manage.py                           | Python           |         15 |          3 |          5 |         23 |
+| c:\Users\logre\Desktop\FEBackend\rNFTBackEnd\__init__.py             | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\logre\Desktop\FEBackend\rNFTBackEnd\asgi.py                 | Python           |          4 |          8 |          5 |         17 |
+| c:\Users\logre\Desktop\FEBackend\rNFTBackEnd\settings.py             | Python           |         67 |         27 |         32 |        126 |
+| c:\Users\logre\Desktop\FEBackend\rNFTBackEnd\urls.py                 | Python           |         11 |         15 |          4 |         30 |
+| c:\Users\logre\Desktop\FEBackend\rNFTBackEnd\wsgi.py                 | Python           |          4 |          8 |          5 |         17 |
+| c:\Users\logre\Desktop\FEBackend\rNFT\__init__.py                    | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\logre\Desktop\FEBackend\rNFT\admin.py                       | Python           |          1 |          1 |          2 |          4 |
+| c:\Users\logre\Desktop\FEBackend\rNFT\apps.py                        | Python           |          4 |          0 |          3 |          7 |
+| c:\Users\logre\Desktop\FEBackend\rNFT\migrations\__init__.py         | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\logre\Desktop\FEBackend\rNFT\models.py                      | Python           |          1 |          1 |          2 |          4 |
+| c:\Users\logre\Desktop\FEBackend\rNFT\tests.py                       | Python           |          1 |          1 |          2 |          4 |
+| c:\Users\logre\Desktop\FEBackend\rNFT\views.py                       | Python           |         29 |          4 |          5 |         38 |
+| c:\Users\logre\Desktop\FEBackend\requirements.txt                    | pip requirements |         51 |          0 |          1 |         52 |
+| c:\Users\logre\Desktop\FEBackend\utils.py                            | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\logre\Desktop\FEBackend\utils\__init__.py                   | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\logre\Desktop\FEBackend\utils\ipfs_dealer.py                | Python           |         44 |          5 |          6 |         55 |
+| c:\Users\logre\Desktop\FEBackend\utils\metadata_generator.py         | Python           |          5 |          1 |          2 |          8 |
+| c:\Users\logre\Desktop\FEBackend\utils\my_cryptography.py            | Python           |         61 |         16 |         31 |        108 |
+| c:\Users\logre\Desktop\FEBackend\utils\tests\__init__.py             | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\logre\Desktop\FEBackend\utils\tests\test_ipfs_dealer.py     | Python           |         18 |          0 |          3 |         21 |
+| Total                                                                |                  |        394 |        101 |        142 |        637 |
++----------------------------------------------------------------------+------------------+------------+------------+------------+------------+

@@ -16,12 +16,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from ninja import NinjaAPI
-from metaMaskAuth import urls as metaMaskAuth
+from django.conf.urls import include
+from UserAuth.views import router as user_router
+from rNFT.views import router as rNFT_router
 
 api = NinjaAPI()
+
+api.add_router("/user/", user_router)
+api.add_router("/rNFT/", rNFT_router)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', api.urls),
-    path('metaMaskAuth/', metaMaskAuth.urls),
 ]

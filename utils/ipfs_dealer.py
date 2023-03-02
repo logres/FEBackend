@@ -1,10 +1,12 @@
 import requests
 import json
+from my_settings import ipfs_setting
+
 
 # 单例模式返回IPFSDealer
 def get_ipfs_dealer():
     if not hasattr(get_ipfs_dealer, "instance"):
-        get_ipfs_dealer.instance = IPFSDealer("http://127.0.0.1:5001")
+        get_ipfs_dealer.instance = IPFSDealer(ipfs_setting['api_endpoint'])
     return get_ipfs_dealer.instance
 
 class IPFSDealer:
